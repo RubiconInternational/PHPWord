@@ -140,7 +140,10 @@ class Settings
      * @var bool
      */
     private static $outputEscapingEnabled = false;
-
+    /**
+     * @var bool 
+     */
+    private static $loadImages = true;
     /**
      * Return the compatibility option used by the XMLWriter
      *
@@ -394,6 +397,21 @@ class Settings
         }
 
         return false;
+    }
+    /**
+     * @return bool
+     */
+    public static function getLoadImages()
+    {
+        return self::$loadImages;
+    }
+
+    /**
+     * @param $value
+     */
+    public static function setLoadImages($value)
+    {
+        self::$loadImages = $value;
     }
 
     /**

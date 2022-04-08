@@ -235,7 +235,9 @@ final class Language extends AbstractStyle
         if (strlen($locale) === 2) {
             return strtolower($locale) . '-' . strtoupper($locale);
         }
-
+        if ($locale === 'und') {
+            return 'en-EN';
+        }
         if ($locale !== null && $locale !== 'zxx' && strstr($locale, '-') === false) {
             throw new \InvalidArgumentException($locale . ' is not a valid language code');
         }

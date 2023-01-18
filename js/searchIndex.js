@@ -4131,6 +4131,16 @@ Search.appendIndex(
             "summary": "Set\u0020default\u0020font\u0020size.",
             "url": "classes/PhpOffice-PhpWord-Settings.html#method_setDefaultFontSize"
         },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Settings\u003A\u003AgetLoadImages\u0028\u0029",
+            "name": "getLoadImages",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Settings.html#method_getLoadImages"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Settings\u003A\u003AsetLoadImages\u0028\u0029",
+            "name": "setLoadImages",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Settings.html#method_setLoadImages"
+        },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Settings\u003A\u003AloadConfig\u0028\u0029",
             "name": "loadConfig",
             "summary": "Load\u0020setting\u0020from\u0020phpword.yml\u0020or\u0020phpword.yml.dist.",
@@ -4280,6 +4290,11 @@ Search.appendIndex(
             "name": "outputEscapingEnabled",
             "summary": "Enables\u0020built\u002Din\u0020output\u0020escaping\u0020mechanism.",
             "url": "classes/PhpOffice-PhpWord-Settings.html#property_outputEscapingEnabled"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpWord\\Settings\u003A\u003A\u0024loadImages",
+            "name": "loadImages",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpWord-Settings.html#property_loadImages"
         },                {
             "fqsen": "\\PhpOffice\\PhpWord\\Shared\\AbstractEnum",
             "name": "AbstractEnum",
